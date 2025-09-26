@@ -10,7 +10,7 @@ try{
         }
     })
 
-    const info = transporter.sendMail({
+    const info = await transporter.sendMail({
         from:`TalentNest`,
         to:`${email}`,
         subject:`${title}`,

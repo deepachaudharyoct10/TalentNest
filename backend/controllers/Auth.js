@@ -79,7 +79,7 @@ exports.signUp = async (req, res) => {
       email ||
       !password ||
       !confirmPassword ||
-      !otp
+      !otpValue
     ) {
       res.status(400).json({
         message: "All fields are required",

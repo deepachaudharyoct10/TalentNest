@@ -1,5 +1,6 @@
 const Tag = require("../models/tag");
-
+//create tag
+//fetch tag
 exports.createTag = async (req, res) => {
   try {
     const { name, description } = req.body;
